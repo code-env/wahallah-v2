@@ -42,7 +42,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="min-h-screen dark:bg-background dark:text-muted">
+          <main className="min-h-screen dark:bg-primary dark:text-muted">
             {children}
           </main>
         </ThemeProvider>
