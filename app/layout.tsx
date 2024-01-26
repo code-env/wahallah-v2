@@ -42,7 +42,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="min-h-screen dark:bg-primary dark:text-muted">
+          <main className="min-h-screen bg-background slowmo duration-500 dark:text-primary">
             {children}
           </main>
         </ThemeProvider>
