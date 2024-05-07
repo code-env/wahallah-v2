@@ -15,7 +15,7 @@ const Welcome = ({
       <Image src={lightLogo} width={100} height={100} alt="Wahallah logo" />
       <div className="center center-col gap-2">
         <h1 className="font-black text-6xl">Welcome to Wahallah</h1>
-        <p className="text-2xl text-muted/70">
+        <p className="text-2xl text-foreground/50">
           let's start improving your Github Communication by settings up your
           account.
         </p>
